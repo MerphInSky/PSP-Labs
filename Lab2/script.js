@@ -160,7 +160,7 @@ window.onload = function(){
     document.getElementById("btn_delay").onclick = function(){
         if (channel_capacity && package_size) {
  
-            const channel_delay = ( package_size / (8 * channel_capacity) );
+            const channel_delay = ( (package_size * 8) / channel_capacity );
             
             outputElement.innerHTML = `
                 f = ${channel_delay.toFixed(5)} с.<br>
