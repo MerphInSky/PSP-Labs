@@ -1,0 +1,114 @@
+body {
+  background-color: #a0a0a0; /* Более темный серый фон */
+  color: #1a1a19;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  width: 100%;
+}
+
+.inp_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0;
+  background-color: #75b477; /* Светло-розовый фон формы */
+  width: 90%;
+  max-width: 820px;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card {
+  border: 1px solid #d0d0d0;
+  transition: transform 0.2s;
+  width: 280px;
+  height: 600px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_img_top {
+  width: 100%;
+  height: 200px;
+  object-fit: scale-down;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  border: none;
+  background: #90EE90; /* Светло-зеленый цвет кнопок */
+  color: #1a1a19; /* Темный текст для контраста */
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #76d176; /* Чуть темнее при наведении */
+}
+
+.plain_text {
+  margin: 10px 0;
+  text-align: center;
+  background-color: #9c5f6e; /* Светло-розовый фон текстовых блоков */
+  padding: 10px;
+  border-radius: 4px;
+  width: 90%;
+}
+
+.card_title {
+  color: #000000;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  text-align: center;
+  background-color: #684453; /* Светло-розовый фон заголовков */
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.input {
+  height: 40px;
+  width: 80%;
+  padding: 0 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #b0b0b0;
+  font-size: 1rem;
+  background-color: white;
+}
