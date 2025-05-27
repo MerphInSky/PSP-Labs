@@ -1,0 +1,42 @@
+/* Увеличенная карточка */
+.card.enlarged {
+  width: 600px;
+  height: auto;
+  min-height: 300px;
+  font-size: 1.1rem;
+  background-color: white;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Увеличенное изображение внутри карточки */
+.card_img_enlarged {
+  max-width: 180px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+/* Горизонтальная линия (ряд элементов) */
+.line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  padding: 8px;
+  background-color: #ffd6e7; /* Светло-розовый фон */
+  border-radius: 4px;
+}
+
+/* Дополнительно: если нужно выделить строки в увеличенной карточке */
+.card.enlarged .line {
+  background-color: #f0f0f0; /* Светло-серый, чтобы не сливалось с розовой формой */
+  padding: 10px;
+  border-left: 3px solid #90EE90; /* Светло-зеленая полоса слева */
+} 

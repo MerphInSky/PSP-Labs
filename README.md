@@ -1,1 +1,2 @@
-Лабораторные работы по дисциплине Программирование Сетевых Приложений
+# XML-Labs
+A repository for university course in web development
